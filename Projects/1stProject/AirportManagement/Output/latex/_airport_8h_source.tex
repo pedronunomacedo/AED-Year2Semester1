@@ -1,0 +1,39 @@
+\hypertarget{_airport_8h_source}{}\doxysection{Airport.\+h}
+\label{_airport_8h_source}\index{Tests/Airport.h@{Tests/Airport.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by ruben on 15/12/2021.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef PLANE\_CPP\_AIRPORT\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define PLANE\_CPP\_AIRPORT\_H}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <sstream>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <fstream>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}BST.h"{}}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}Transports.h"{}}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{class_airport}{Airport}} \{}
+\DoxyCodeLine{17 \textcolor{keyword}{private}:}
+\DoxyCodeLine{18     \textcolor{keywordtype}{string} name;}
+\DoxyCodeLine{19     \mbox{\hyperlink{class_b_s_t}{BST<Transports>}} transports;}
+\DoxyCodeLine{20 \textcolor{keyword}{public}:}
+\DoxyCodeLine{21     \mbox{\hyperlink{class_airport}{Airport}}(): name(\textcolor{stringliteral}{"{}"{}}), transports(\mbox{\hyperlink{class_transports}{Transports}}(\textcolor{stringliteral}{"{}"{}},0))\{\};}
+\DoxyCodeLine{22     vector<Transports> \mbox{\hyperlink{class_airport_a835313dca20b7907754090389471d65b}{getTransports}}();}
+\DoxyCodeLine{23     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_airport_a939b886a8a9675e22418f2c9a490bdcb}{getName}}();}
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_airport_a0230902c40ec99c76bc4c1656818ed1d}{readFile}} (ifstream \&f);}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_airport_a577388516150c12706a1fb9dd95976ba}{showTransports}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_airport_aa2d8f19edde1fb941b9d198f34e0ee9b}{addTransport}}(\textcolor{keywordtype}{string} typ, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} dis);}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_airport_a0837fd9e7cd67ba70bc7d033a87d71cd}{removeTransport}}(\textcolor{keywordtype}{string} typ, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} d);}
+\DoxyCodeLine{28     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_airport_ae4bda878aabb603490eae99ab764bebd}{getTransportsSize}} ();}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30 \};}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//PLANE\_CPP\_AIRPORT\_H}}
+
+\end{DoxyCode}

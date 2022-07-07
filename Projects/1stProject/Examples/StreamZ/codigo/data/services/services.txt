@@ -1,0 +1,190 @@
+18
+8
+
+0
+joanammf
+Joana%20Maria%20Monteiro%20Fonseca
+%28%2B351%29%2091%20734%209147
+Bruno%20Barbosa%20Mileto
+91%20603%2045%2032
+20181115_030000
+20181115_090000
+Avenida%20Doutor%20Viviano%20Ferreira%2010
+2430-030 LEIRIA
+Leiria Portugal
+Abenida%20Fernando%20Avillez%2C%20999
+123-456 PONTEVEDRA
+Galiza Espa%C3%B1a
+700
+0
+12000
+Carnival%20costumes.
+1
+02-52-FF afonso1975
+250.00
+300.00
+
+12
+marialves
+Maria%20Teresa%20Alves%20Fernandes
+91%20381%2088%2067
+Jo%C3%A3o%20Miguel%20Gon%C3%A7alves
+91%20271%2082%2040
+20191120_140000
+20191121_080000
+Rua%20da%20Coordoaria%2055
+4400-102 PORTO
+Porto Portugal
+Rua%20Manuel%20Pequeno%2040
+4900-029 OUTEIRO
+Viana%20do%20Castelo Portugal
+300
+0
+5000
+Personal%20Belongings
+1
+LT-98-17 manel0101
+603.00
+696.09
+
+14
+joseman
+Jos%C3%A9%20Manuel%20Pereira%20Fernandes
+%2B351%2091%20939%2010%2020
+Jos%C3%A9%20Alberto%20Martins%20Caeiro
+%2B351%2092%20391%2002%2094
+20191123_100000
+20191124_180000
+Travessa%2025%20Abril%20192
+2300-320 AMARANTE
+Porto Portugal
+Rua%20Francisco%20Domingues%20391
+8400-290 SANTA%20EUF%C3%89MIA
+Leiria Portugal
+400
+0
+23000
+Construction%20Materials
+2
+25-33-XQ brunoss
+02-52-FF aaaf23
+2232.00
+2448.96
+
+16
+lfma
+Lu%C3%ADs%20Francisco%20Macieira%20Almeida
+91%20193%2059%2054
+Joana%20Miguel%20Almeida%20Costa
+91%20827%2046%2034
+20191203_090000
+20191204_090000
+Rua%20da%20Coordoaria%20128
+4400-958 PORTO
+Porto Portugal
+Travessa%20do%20Pinheiro%20Velho%2010
+6300-020 COIMBRA
+Coimbra Portugal
+200
+1
+5000
+Chickens
+1
+87-XQ-99 brunoss
+301.00
+380.03
+
+4
+aadamante
+Ant%C3%B3nio%20Afonso%20Adamante
+91%20801%2097%2053
+Mariana%20Miguel%20Martins
+91%20248%2083%2071
+20191120_180000
+20191121_190000
+Rua%20das%20Pereiras%20990
+4501-001 PORTO
+Porto Portugal
+Rua%20das%20Flores%2018
+5100-028 ALMADA
+Set%C3%BAbal Portugal
+400
+0
+8000
+Furtniture
+1
+25-33-XQ brunoss
+1480.00
+1649.40
+
+6
+antouto
+Miguel%20Jo%C3%A3o%20Macieira%20Fernandes
+%2B351%2092%20838%2028%2019
+Antonieta%20de%20Carvalho%20Souto
+93%20948%2038%2010
+20191118_140000
+20191120_100000
+Travessa%201%C2%BA%20de%20Dezembro%2078
+2300-019 BEJA
+Beja Portugal
+Avenida%20Marechal%20Gomes%20de%20Costa%2029
+4400-001 GONDOMAR
+Porto Portugal
+600
+2
+4000
+Meds
+0 3
+1
+88-72-II aaaf23
+1183.20
+1268.70
+
+7
+lfma
+Lu%C3%ADs%20Francisco%20Macieira%20Almeida
+91%20193%2059%2054
+Marco%20da%20Rocha%20Louren%C3%A7o
+93%20123%2083%2065
+20191119_090000
+20191119_150000
+Rua%20da%20Coordoaria%20128
+4200-281 PORTO
+Porto Portugal
+Avenida%2025%20de%20Abril%20298
+4600-020 Maia
+Porto Portugal
+100
+3
+9000
+Oil
+3
+1
+65-GU-22 marinamartins
+315.00
+399.45
+
+8
+brunoboss
+Bruno%20Barbosa%20Rocha
+91%20301%2010%2010
+Manuela%20Joana%20Cardoso%20Ribeiro
+91%20234%2083%2061
+20191124_143000
+20191125_190000
+Avedina%20Doutor%20Manuel%20Serrano%2049
+3800-102 BRAGA
+Braga Portugal
+Rua%20Professor%20Alberto%20Coelho%20291
+6520-128 BARREIRA
+Leiria Portugal
+500
+1
+12000
+Cattle
+2
+87-XQ-99 marmartins21
+08-BG-20 camilaferr
+1070.00
+1172.09

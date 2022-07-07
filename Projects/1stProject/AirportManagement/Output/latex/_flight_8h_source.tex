@@ -1,0 +1,54 @@
+\hypertarget{_flight_8h_source}{}\doxysection{Flight.\+h}
+\label{_flight_8h_source}\index{Tests/Flight.h@{Tests/Flight.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by ruben on 24/11/2021.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef AIRPORTMANAGEMENT\_AED\_PROJECT\_FLIGHT\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define AIRPORTMANAGEMENT\_AED\_PROJECT\_FLIGHT\_H}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Date.h"{}}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{class_flight}{Flight}} \{}
+\DoxyCodeLine{17 \textcolor{keyword}{public}:}
+\DoxyCodeLine{18     \mbox{\hyperlink{class_flight}{Flight}}(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} number,\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} time,\mbox{\hyperlink{class_date}{Date}} date,\textcolor{keywordtype}{string} ori,\textcolor{keywordtype}{string} des, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} capacity, \textcolor{keywordtype}{int} occupiedPlaces);}
+\DoxyCodeLine{19     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_flight_a804544196e573cd7282e62357b0be90e}{operator== }}(\textcolor{keyword}{const} \mbox{\hyperlink{class_flight}{Flight}} \&f) \textcolor{keyword}{const};}
+\DoxyCodeLine{20     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_flight_aa26503c1848085e00233f43b889f2e57}{operator< }}(\textcolor{keyword}{const} \mbox{\hyperlink{class_flight}{Flight}} \&f) \textcolor{keyword}{const};}
+\DoxyCodeLine{21     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_flight_a00f2065f06fb0bc36447f84037b523a9}{getAvailablePlaces}}();}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} setFlightNumber(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} flightNumber);}
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} setDestination(\textcolor{keywordtype}{string} destination);}
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} setOrigin(\textcolor{keywordtype}{string} origin);}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} setFlightTime(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} flightTime);}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} setDate(\mbox{\hyperlink{class_date}{Date}} departuredate);}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} setOccupiedPlaces();}
+\DoxyCodeLine{28     \textcolor{keywordtype}{int} getOccupiedPlaces();}
+\DoxyCodeLine{29     \textcolor{keywordtype}{string} getOrigin()\textcolor{keyword}{const};}
+\DoxyCodeLine{30     \textcolor{keywordtype}{string} getDestination()\textcolor{keyword}{const};}
+\DoxyCodeLine{31     \mbox{\hyperlink{class_date}{Date}} getDepartureDate()\textcolor{keyword}{const};}
+\DoxyCodeLine{32     \textcolor{keywordtype}{int} getCapacity()\textcolor{keyword}{const};}
+\DoxyCodeLine{33     \textcolor{keywordtype}{int} getFlightNumber()\textcolor{keyword}{const};}
+\DoxyCodeLine{34     \textcolor{keywordtype}{int} getDuration()\textcolor{keyword}{const};}
+\DoxyCodeLine{35     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_flight_a06e25d3108486693cc7877a55cfbdf6f}{show}}();}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \textcolor{keyword}{private}:}
+\DoxyCodeLine{38     \textcolor{keywordtype}{int} flightNumber, capacity;}
+\DoxyCodeLine{39     \mbox{\hyperlink{class_date}{Date}} departureDate = \mbox{\hyperlink{class_date}{Date}}();     \textcolor{comment}{//criar classe date, para poder usar como objeto !!}}
+\DoxyCodeLine{40     \textcolor{keywordtype}{int} flightTime;}
+\DoxyCodeLine{41     \textcolor{keywordtype}{string} origin;}
+\DoxyCodeLine{42     \textcolor{keywordtype}{string} destination;}
+\DoxyCodeLine{43     \textcolor{keywordtype}{int} occupiedPlaces;}
+\DoxyCodeLine{44 \};}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//AIRPORTMANAGEMENT\_AED\_PROJECT\_FLIGHT\_H}}
+\DoxyCodeLine{48 }
+
+\end{DoxyCode}

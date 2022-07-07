@@ -1,0 +1,79 @@
+\hypertarget{class_passenger}{}\doxysection{Passenger Class Reference}
+\label{class_passenger}\index{Passenger@{Passenger}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_passenger_ab654188234b00c9bfab145c053f3e00e}\label{class_passenger_ab654188234b00c9bfab145c053f3e00e}} 
+{\bfseries Passenger} (string \&passenger\+Name, int \&passenger\+SSN, vector$<$ \mbox{\hyperlink{class_ticket}{Ticket}} $>$ \&t)
+\item 
+bool \mbox{\hyperlink{class_passenger_aca3d74e4d10ae849f6d66b4f3bc093b3}{operator==}} (const \mbox{\hyperlink{class_passenger}{Passenger}} \&p) const
+\item 
+void \mbox{\hyperlink{class_passenger_a6f54f02ed9dba9a1b513fda0166384b8}{set\+Ticket}} (\mbox{\hyperlink{class_ticket}{Ticket}} \&ticket)
+\item 
+bool \mbox{\hyperlink{class_passenger_a8723bb9b754a9cd7a3e212d8d6914750}{ticket\+Exist}} (int num\+Flight)
+\item 
+\mbox{\Hypertarget{class_passenger_a5f4436bcbbf17316ab070dc6189ce9bb}\label{class_passenger_a5f4436bcbbf17316ab070dc6189ce9bb}} 
+string {\bfseries get\+Name} () const
+\item 
+\mbox{\Hypertarget{class_passenger_adae0bd73a645bc056f144ef6dec50c9f}\label{class_passenger_adae0bd73a645bc056f144ef6dec50c9f}} 
+int {\bfseries get\+SSN} () const
+\item 
+\mbox{\Hypertarget{class_passenger_aaa5b607ca5c375b95ca7d6b0a945ee1b}\label{class_passenger_aaa5b607ca5c375b95ca7d6b0a945ee1b}} 
+vector$<$ \mbox{\hyperlink{class_ticket}{Ticket}} $>$ \& {\bfseries get\+Tickets} ()
+\item 
+void \mbox{\hyperlink{class_passenger_aa5c99a136067daac266c203e4d7bd8d9}{show}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_passenger_aca3d74e4d10ae849f6d66b4f3bc093b3}\label{class_passenger_aca3d74e4d10ae849f6d66b4f3bc093b3}} 
+\index{Passenger@{Passenger}!operator==@{operator==}}
+\index{operator==@{operator==}!Passenger@{Passenger}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Passenger\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_passenger}{Passenger}} \&}]{p }\end{DoxyParamCaption}) const}
+
+Compares to passengers to see if they are the same by checking the SSN 
+\begin{DoxyParams}{Parameters}
+{\em p} & (\mbox{\hyperlink{class_passenger}{Passenger}} to compare) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if is the same passenger, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_passenger_a6f54f02ed9dba9a1b513fda0166384b8}\label{class_passenger_a6f54f02ed9dba9a1b513fda0166384b8}} 
+\index{Passenger@{Passenger}!setTicket@{setTicket}}
+\index{setTicket@{setTicket}!Passenger@{Passenger}}
+\doxysubsubsection{\texorpdfstring{setTicket()}{setTicket()}}
+{\footnotesize\ttfamily void Passenger\+::set\+Ticket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ticket}{Ticket}} \&}]{ticket }\end{DoxyParamCaption})}
+
+Adds the ticket given to the vector of bought\+Tickets by the passenger 
+\begin{DoxyParams}{Parameters}
+{\em ticket} & (\mbox{\hyperlink{class_ticket}{Ticket}} to add) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_passenger_aa5c99a136067daac266c203e4d7bd8d9}\label{class_passenger_aa5c99a136067daac266c203e4d7bd8d9}} 
+\index{Passenger@{Passenger}!show@{show}}
+\index{show@{show}!Passenger@{Passenger}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void Passenger\+::show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Shows the passengers and the tickets associated with him \mbox{\Hypertarget{class_passenger_a8723bb9b754a9cd7a3e212d8d6914750}\label{class_passenger_a8723bb9b754a9cd7a3e212d8d6914750}} 
+\index{Passenger@{Passenger}!ticketExist@{ticketExist}}
+\index{ticketExist@{ticketExist}!Passenger@{Passenger}}
+\doxysubsubsection{\texorpdfstring{ticketExist()}{ticketExist()}}
+{\footnotesize\ttfamily bool Passenger\+::ticket\+Exist (\begin{DoxyParamCaption}\item[{int}]{num\+Flight }\end{DoxyParamCaption})}
+
+Verifies if the ticket exists in the bought\+Ticket vector 
+\begin{DoxyParams}{Parameters}
+{\em num\+Flight} & (Number of flight to search in the bought\+Tickets vector) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if it exists, false otherwise 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Tests/Passenger.\+h\item 
+Tests/Passenger.\+cpp\end{DoxyCompactItemize}

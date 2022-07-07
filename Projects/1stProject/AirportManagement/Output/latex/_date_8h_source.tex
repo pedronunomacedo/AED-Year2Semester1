@@ -1,0 +1,53 @@
+\hypertarget{_date_8h_source}{}\doxysection{Date.\+h}
+\label{_date_8h_source}\index{Tests/Date.h@{Tests/Date.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by ruben on 29/11/2021.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef AIRPORTMANAGEMENT\_AED\_PROJECT\_DATE\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define AIRPORTMANAGEMENT\_AED\_PROJECT\_DATE\_H}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <ctime>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <iomanip>}}
+\DoxyCodeLine{11 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{class_date}{Date}} \{}
+\DoxyCodeLine{14 \textcolor{keyword}{public}:}
+\DoxyCodeLine{15     \mbox{\hyperlink{class_date}{Date}}();}
+\DoxyCodeLine{16     \mbox{\hyperlink{class_date}{Date}}(\textcolor{keywordtype}{string} \&d);}
+\DoxyCodeLine{17     \textcolor{keywordtype}{void} setYear(\textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{18     \textcolor{keywordtype}{void} setMonth(\textcolor{keywordtype}{int} m);}
+\DoxyCodeLine{19     \textcolor{keywordtype}{void} setDay(\textcolor{keywordtype}{int} d);}
+\DoxyCodeLine{20     \textcolor{keywordtype}{void} setHour(\textcolor{keywordtype}{int} h);}
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} setMinute(\textcolor{keywordtype}{int} min);}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} setSecond(\textcolor{keywordtype}{int} sec);}
+\DoxyCodeLine{23     \textcolor{keywordtype}{int} getYear() \textcolor{keyword}{const};}
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} getMonth() \textcolor{keyword}{const};}
+\DoxyCodeLine{25     \textcolor{keywordtype}{int} getDay() \textcolor{keyword}{const};}
+\DoxyCodeLine{26     \textcolor{keywordtype}{int} getHour() \textcolor{keyword}{const};}
+\DoxyCodeLine{27     \textcolor{keywordtype}{int} getMinute() \textcolor{keyword}{const};}
+\DoxyCodeLine{28     \textcolor{keywordtype}{int} getSecond() \textcolor{keyword}{const};}
+\DoxyCodeLine{29     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_date_ae067129805cb5e5759d7a06555411df8}{show}}() \textcolor{keyword}{const};        \textcolor{comment}{//esta alterado !}}
+\DoxyCodeLine{30     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_date_a005261fb44316e2d8453d069a29fb453}{daysSince2020}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{31     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_date_a6321d3d16f795ba7f70b9cc81ad55873}{daysBetweenDates}}(\mbox{\hyperlink{class_date}{Date}} \&date2);}
+\DoxyCodeLine{32 \textcolor{keyword}{private}:}
+\DoxyCodeLine{33     \textcolor{keywordtype}{string} data;}
+\DoxyCodeLine{34     \textcolor{keywordtype}{int} year;}
+\DoxyCodeLine{35     \textcolor{keywordtype}{int} month;}
+\DoxyCodeLine{36     \textcolor{keywordtype}{int} day;}
+\DoxyCodeLine{37     \textcolor{keywordtype}{int} hour;}
+\DoxyCodeLine{38     \textcolor{keywordtype}{int} minute;}
+\DoxyCodeLine{39     \textcolor{keywordtype}{int} second;}
+\DoxyCodeLine{40     \textcolor{keywordtype}{char} sep1 = \textcolor{charliteral}{'/'};}
+\DoxyCodeLine{41     \textcolor{keywordtype}{char} sep2 = \textcolor{charliteral}{'\_'};}
+\DoxyCodeLine{42     \textcolor{keywordtype}{char} sep3 = \textcolor{charliteral}{':'};}
+\DoxyCodeLine{43     vector<int> monthsDays = \{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31\}; \textcolor{comment}{// monthsDays is not a leap year}}
+\DoxyCodeLine{44 \};}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//AIRPORTMANAGEMENT\_AED\_PROJECT\_DATE\_H}}
+
+\end{DoxyCode}

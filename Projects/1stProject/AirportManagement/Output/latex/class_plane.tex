@@ -1,0 +1,99 @@
+\hypertarget{class_plane}{}\doxysection{Plane Class Reference}
+\label{class_plane}\index{Plane@{Plane}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_plane_a99bfb942563f7bbd60696e5f526117b0}\label{class_plane_a99bfb942563f7bbd60696e5f526117b0}} 
+{\bfseries Plane} (int plat, string typ, unsigned int cap, list$<$ \mbox{\hyperlink{class_flight}{Flight}} $>$ \&plan, vector$<$ \mbox{\hyperlink{class_service}{Service}} $>$ \&done, queue$<$ \mbox{\hyperlink{class_service}{Service}} $>$ \&to\+Do)
+\item 
+bool \mbox{\hyperlink{class_plane_a45c64063cfbb06ac3792276a80c2aa46}{operator==}} (const \mbox{\hyperlink{class_plane}{Plane}} \&p) const
+\item 
+\mbox{\Hypertarget{class_plane_ab7f700cc3f1b4fed70ac2afa65b5b3b9}\label{class_plane_ab7f700cc3f1b4fed70ac2afa65b5b3b9}} 
+list$<$ \mbox{\hyperlink{class_flight}{Flight}} $>$ \& {\bfseries get\+Flights} ()
+\item 
+\mbox{\Hypertarget{class_plane_ac1cab73c5d503a877b98ce7badc80998}\label{class_plane_ac1cab73c5d503a877b98ce7badc80998}} 
+queue$<$ \mbox{\hyperlink{class_service}{Service}} $>$ \& {\bfseries get\+To\+Do\+Serv} ()
+\item 
+void \mbox{\hyperlink{class_plane_a90151db64db61f5efdd59f6c3fb903d1}{set\+To\+Do\+Serv}} (\mbox{\hyperlink{class_service}{Service}} \&p)
+\item 
+\mbox{\Hypertarget{class_plane_adb2d9b932c3a28d2805d4ea6c3d02cba}\label{class_plane_adb2d9b932c3a28d2805d4ea6c3d02cba}} 
+vector$<$ \mbox{\hyperlink{class_service}{Service}} $>$ \& {\bfseries get\+Done\+Serv} ()
+\item 
+\mbox{\Hypertarget{class_plane_a861dbfdf67839656d47d3179463bab77}\label{class_plane_a861dbfdf67839656d47d3179463bab77}} 
+unsigned int {\bfseries get\+Capacity} () const
+\item 
+\mbox{\Hypertarget{class_plane_a4cf61ed6ace8319b07be7e1c9c2ddc85}\label{class_plane_a4cf61ed6ace8319b07be7e1c9c2ddc85}} 
+string {\bfseries get\+Type} () const
+\item 
+\mbox{\Hypertarget{class_plane_a801d8b6f095e6fca4a1953baad8b0a2d}\label{class_plane_a801d8b6f095e6fca4a1953baad8b0a2d}} 
+int {\bfseries get\+Plate} () const
+\item 
+\mbox{\Hypertarget{class_plane_a5bca74c3364bec7857fff927e05589d4}\label{class_plane_a5bca74c3364bec7857fff927e05589d4}} 
+void {\bfseries set\+Plate} (int pl)
+\item 
+\mbox{\Hypertarget{class_plane_a6d8a677aefd09659450332f4536e3c00}\label{class_plane_a6d8a677aefd09659450332f4536e3c00}} 
+void {\bfseries set\+Type} (string typ)
+\item 
+\mbox{\Hypertarget{class_plane_a13fd5844b532505610d98ec026f90a4f}\label{class_plane_a13fd5844b532505610d98ec026f90a4f}} 
+void {\bfseries set\+Capacity} (unsigned int cap)
+\item 
+bool \mbox{\hyperlink{class_plane_a7817bf96deb1c45d5ee2d8df4126487d}{check\+If\+Is\+Available}} (\mbox{\hyperlink{class_date}{Date}} maintenance\+Day, \mbox{\hyperlink{class_date}{Date}} wanted\+Day)
+\item 
+void \mbox{\hyperlink{class_plane_a8302bb2bab4817c0ab1920afb1a85677}{show}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_plane_a7817bf96deb1c45d5ee2d8df4126487d}\label{class_plane_a7817bf96deb1c45d5ee2d8df4126487d}} 
+\index{Plane@{Plane}!checkIfIsAvailable@{checkIfIsAvailable}}
+\index{checkIfIsAvailable@{checkIfIsAvailable}!Plane@{Plane}}
+\doxysubsubsection{\texorpdfstring{checkIfIsAvailable()}{checkIfIsAvailable()}}
+{\footnotesize\ttfamily bool Plane\+::check\+If\+Is\+Available (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_date}{Date}}}]{maintenance\+Day,  }\item[{\mbox{\hyperlink{class_date}{Date}}}]{wanted\+Day }\end{DoxyParamCaption})}
+
+Checks if the wanted given date match to the service given date. 
+\begin{DoxyParams}{Parameters}
+{\em maintenance\+Day} & (first date to compare) \\
+\hline
+{\em wanted\+Day} & (second date to compare) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the dates don\textquotesingle{}t match, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_plane_a45c64063cfbb06ac3792276a80c2aa46}\label{class_plane_a45c64063cfbb06ac3792276a80c2aa46}} 
+\index{Plane@{Plane}!operator==@{operator==}}
+\index{operator==@{operator==}!Plane@{Plane}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Plane\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_plane}{Plane}} \&}]{p }\end{DoxyParamCaption}) const}
+
+Compares two planes and checks if they are the same by checking the plates on both planes 
+\begin{DoxyParams}{Parameters}
+{\em p} & (Second plane to compare) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the planes are the same, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_plane_a90151db64db61f5efdd59f6c3fb903d1}\label{class_plane_a90151db64db61f5efdd59f6c3fb903d1}} 
+\index{Plane@{Plane}!setToDoServ@{setToDoServ}}
+\index{setToDoServ@{setToDoServ}!Plane@{Plane}}
+\doxysubsubsection{\texorpdfstring{setToDoServ()}{setToDoServ()}}
+{\footnotesize\ttfamily void Plane\+::set\+To\+Do\+Serv (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_service}{Service}} \&}]{p }\end{DoxyParamCaption})}
+
+Adds a service to the queue of to\+Do\+Services 
+\begin{DoxyParams}{Parameters}
+{\em p} & (service to add) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_plane_a8302bb2bab4817c0ab1920afb1a85677}\label{class_plane_a8302bb2bab4817c0ab1920afb1a85677}} 
+\index{Plane@{Plane}!show@{show}}
+\index{show@{show}!Plane@{Plane}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void Plane\+::show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Show the plane in the following format \char`\"{} Plane plate $\vert$ Plane type $\vert$ Plane capacity \char`\"{} 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Tests/Plane.\+h\item 
+Tests/Plane.\+cpp\end{DoxyCompactItemize}

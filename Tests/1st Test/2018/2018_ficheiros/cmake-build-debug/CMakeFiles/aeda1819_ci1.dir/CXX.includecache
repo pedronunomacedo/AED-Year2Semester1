@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/1st Test/2018/2018_ficheiros/Tests/Account.h
+string
+-
+iostream
+-
+
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/1st Test/2018/2018_ficheiros/Tests/Bank.cpp
+Bank.h
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/1st Test/2018/2018_ficheiros/Tests/Bank.h
+algorithm
+-
+string
+-
+
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/1st Test/2018/2018_ficheiros/Tests/Bank.h
+Account.h
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/1st Test/2018/2018_ficheiros/Tests/Account.h
+vector
+-
+BankOfficer.h
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/1st Test/2018/2018_ficheiros/Tests/BankOfficer.h
+
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/1st Test/2018/2018_ficheiros/Tests/BankOfficer.h
+Account.h
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/1st Test/2018/2018_ficheiros/Tests/Account.h
+string
+-
+vector
+-
+

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/2nd Test/2017/My Resolution/main.cpp
+iostream
+-
+

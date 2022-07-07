@@ -1,0 +1,65 @@
+\hypertarget{_company_8h_source}{}\doxysection{Company.\+h}
+\label{_company_8h_source}\index{Tests/Company.h@{Tests/Company.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by pedro on 01/12/2021.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef AIRPORTMANAGEMENT\_AED\_PROJECT\_COMPANY\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define AIRPORTMANAGEMENT\_AED\_PROJECT\_COMPANY\_H}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Plane.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}Flight.h"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}Passenger.h"{}}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}Airport.h"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <fstream>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <list>}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#define CLEAR\_MACRO() system("{}cls"{}})}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#elif defined(unix) || defined(\_\_unix\_\_) || defined(\_\_unix)}}
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#define CLEAR\_MACRO() system("{}clear"{}})}
+\DoxyCodeLine{21 \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{keyword}{class }\mbox{\hyperlink{class_company}{Company}} \{}
+\DoxyCodeLine{28 \textcolor{keyword}{public}:}
+\DoxyCodeLine{29     \mbox{\hyperlink{class_company_ae486b32b89f97a2953d6a0cf3eb7d9f6}{Company}}(ifstream \&dataPl, ifstream \&dataPs, ifstream \&dataAir);}
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_company_a1772e1929374cce4bbe9e23b427c64e8}{mainMenu}}();}
+\DoxyCodeLine{31     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_company_a048ca73472702a5d7f3ef9d6f0f4047a}{record}}(ofstream \&dataPl, ofstream \&dataPs, ofstream \&dataAir);}
+\DoxyCodeLine{32 \textcolor{keyword}{private}:}
+\DoxyCodeLine{33     list<Airport> airports;}
+\DoxyCodeLine{34     list<Plane> planes;}
+\DoxyCodeLine{35     list<Passenger> passengers;}
+\DoxyCodeLine{36     vector<Flight> getFlightsToCheckIn()\textcolor{keyword}{const};}
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} update();}
+\DoxyCodeLine{38     \textcolor{keywordtype}{bool} checkPassenger(\mbox{\hyperlink{class_passenger}{Passenger}} \&p);}
+\DoxyCodeLine{39     \textcolor{keywordtype}{void} userMenu();}
+\DoxyCodeLine{40     \textcolor{keywordtype}{void} settingsMenu();}
+\DoxyCodeLine{41     \textcolor{keywordtype}{void} showAllFlights();}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} showAllPassengers();}
+\DoxyCodeLine{43     \textcolor{keywordtype}{void} showAllPlanes();}
+\DoxyCodeLine{44     \textcolor{keywordtype}{void} showAllServices();}
+\DoxyCodeLine{45     \textcolor{keywordtype}{void} buyTicket(\mbox{\hyperlink{class_passenger}{Passenger}} \&p);}
+\DoxyCodeLine{46     \textcolor{keywordtype}{void} addPlane();}
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} addFlight();}
+\DoxyCodeLine{48     \textcolor{keywordtype}{void} addPassenger();}
+\DoxyCodeLine{49     \textcolor{keywordtype}{void} addService();}
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} removePlane();}
+\DoxyCodeLine{51     \textcolor{keywordtype}{void} removeFlight();}
+\DoxyCodeLine{52     \textcolor{keywordtype}{void} removePassenger();}
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} removeService();}
+\DoxyCodeLine{54     \textcolor{keywordtype}{void} checkIn(\mbox{\hyperlink{class_passenger}{Passenger}} \&p);}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56 \};}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//AIRPORTMANAGEMENT\_AED\_PROJECT\_COMPANY\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,40 @@
+\hypertarget{_passenger_8h_source}{}\doxysection{Passenger.\+h}
+\label{_passenger_8h_source}\index{Tests/Passenger.h@{Tests/Passenger.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by ruben on 24/11/2021.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef AIRPORTMANAGEMENT\_AED\_PROJECT\_PASSENGER\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define AIRPORTMANAGEMENT\_AED\_PROJECT\_PASSENGER\_H}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}Ticket.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}Flight.h"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Plane.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include<iostream>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include<vector>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{13 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{class_passenger}{Passenger}} \{}
+\DoxyCodeLine{17 \textcolor{keyword}{private}:}
+\DoxyCodeLine{18     vector<Ticket> boughtTickets;}
+\DoxyCodeLine{19     \textcolor{keywordtype}{string} passengerName;}
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} passengerSSN;}
+\DoxyCodeLine{21 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \mbox{\hyperlink{class_passenger}{Passenger}}(\textcolor{keywordtype}{string} \&passengerName, \textcolor{keywordtype}{int} \&passengerSSN, vector<Ticket> \&t);}
+\DoxyCodeLine{23     \mbox{\hyperlink{class_passenger}{Passenger}}() : boughtTickets(\{\}), passengerSSN(0), passengerName(\textcolor{stringliteral}{"{}"{}}) \{\};}
+\DoxyCodeLine{24     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_passenger_aca3d74e4d10ae849f6d66b4f3bc093b3}{operator==}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_passenger}{Passenger}} \&p)\textcolor{keyword}{const};}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_passenger_a6f54f02ed9dba9a1b513fda0166384b8}{setTicket}}(\mbox{\hyperlink{class_ticket}{Ticket}} \&ticket);}
+\DoxyCodeLine{26     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_passenger_a8723bb9b754a9cd7a3e212d8d6914750}{ticketExist}}(\textcolor{keywordtype}{int} numFlight);}
+\DoxyCodeLine{27     \textcolor{keywordtype}{string} getName()\textcolor{keyword}{const};}
+\DoxyCodeLine{28     \textcolor{keywordtype}{int} getSSN()\textcolor{keyword}{const};}
+\DoxyCodeLine{29     vector<Ticket> \&getTickets();}
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_passenger_aa5c99a136067daac266c203e4d7bd8d9}{show}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{31 \};}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//AIRPORTMANAGEMENT\_AED\_PROJECT\_PASSENGER\_H}}
+
+\end{DoxyCode}

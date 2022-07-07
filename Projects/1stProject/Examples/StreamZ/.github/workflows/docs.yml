@@ -1,0 +1,32 @@
+name: docs
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install doxygen
+      run: sudo apt install -y graphviz doxygen
+
+    - name: Install LaTeX
+      run: sudo apt install -y texlive-latex-extra texlive-lang-portuguese latexmk #texlive-science  curl
+
+    - name: Make all documents
+      run: make
+    
+    - name: Upload pres1
+      uses: actions/upload-artifact@v2
+      with:
+        name: AEDA_proj_pres1.pdf
+        path: apresentacao/AEDA_proj_pres1.pdf
+    
+    - name: Upload pres2
+      uses: actions/upload-artifact@v2
+      with:
+        name: AEDA_proj_pres2.pdf
+        path: apresentacao/AEDA_proj_pres2.pdf

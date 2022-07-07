@@ -1,0 +1,3 @@
+"D:\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\aeda1819_ci1.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\aeda1819_ci1.dir/objects.a @CMakeFiles\aeda1819_ci1.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\aeda1819_ci1.dir/objects.a -Wl,--no-whole-archive -o aeda1819_ci1.exe -Wl,--out-implib,libaeda1819_ci1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\aeda1819_ci1.dir\linklibs.rsp

@@ -1,0 +1,98 @@
+\hypertarget{class_airport}{}\doxysection{Airport Class Reference}
+\label{class_airport}\index{Airport@{Airport}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \mbox{\hyperlink{class_transports}{Transports}} $>$ \mbox{\hyperlink{class_airport_a835313dca20b7907754090389471d65b}{get\+Transports}} ()
+\item 
+string \mbox{\hyperlink{class_airport_a939b886a8a9675e22418f2c9a490bdcb}{get\+Name}} ()
+\item 
+void \mbox{\hyperlink{class_airport_a0230902c40ec99c76bc4c1656818ed1d}{read\+File}} (ifstream \&f)
+\item 
+void \mbox{\hyperlink{class_airport_a577388516150c12706a1fb9dd95976ba}{show\+Transports}} () const
+\item 
+void \mbox{\hyperlink{class_airport_aa2d8f19edde1fb941b9d198f34e0ee9b}{add\+Transport}} (string typ, unsigned int dis)
+\item 
+void \mbox{\hyperlink{class_airport_a0837fd9e7cd67ba70bc7d033a87d71cd}{remove\+Transport}} (string typ, unsigned int d)
+\item 
+int \mbox{\hyperlink{class_airport_ae4bda878aabb603490eae99ab764bebd}{get\+Transports\+Size}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_airport_aa2d8f19edde1fb941b9d198f34e0ee9b}\label{class_airport_aa2d8f19edde1fb941b9d198f34e0ee9b}} 
+\index{Airport@{Airport}!addTransport@{addTransport}}
+\index{addTransport@{addTransport}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{addTransport()}{addTransport()}}
+{\footnotesize\ttfamily void Airport\+::add\+Transport (\begin{DoxyParamCaption}\item[{string}]{typ,  }\item[{unsigned int}]{dis }\end{DoxyParamCaption})}
+
+Adds the given transport to the \mbox{\hyperlink{class_b_s_t}{BST}} (Binary Search Tree) of nearest transports to the airport 
+\begin{DoxyParams}{Parameters}
+{\em typ} & (type of transport) \\
+\hline
+{\em dis} & (distance between the transport and the airport) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_airport_a939b886a8a9675e22418f2c9a490bdcb}\label{class_airport_a939b886a8a9675e22418f2c9a490bdcb}} 
+\index{Airport@{Airport}!getName@{getName}}
+\index{getName@{getName}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily string Airport\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Name of the airport 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_airport_a835313dca20b7907754090389471d65b}\label{class_airport_a835313dca20b7907754090389471d65b}} 
+\index{Airport@{Airport}!getTransports@{getTransports}}
+\index{getTransports@{getTransports}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{getTransports()}{getTransports()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_transports}{Transports}} $>$ Airport\+::get\+Transports (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Saves the information located in the \mbox{\hyperlink{class_b_s_t}{BST}} into a vector of transports \begin{DoxyReturn}{Returns}
+Vector with the nearest transports to the airport 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_airport_ae4bda878aabb603490eae99ab764bebd}\label{class_airport_ae4bda878aabb603490eae99ab764bebd}} 
+\index{Airport@{Airport}!getTransportsSize@{getTransportsSize}}
+\index{getTransportsSize@{getTransportsSize}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{getTransportsSize()}{getTransportsSize()}}
+{\footnotesize\ttfamily int Airport\+::get\+Transports\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Calculates the size of the \mbox{\hyperlink{class_b_s_t}{BST}} \begin{DoxyReturn}{Returns}
+Number of transports near to the airport 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_airport_a0230902c40ec99c76bc4c1656818ed1d}\label{class_airport_a0230902c40ec99c76bc4c1656818ed1d}} 
+\index{Airport@{Airport}!readFile@{readFile}}
+\index{readFile@{readFile}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{readFile()}{readFile()}}
+{\footnotesize\ttfamily void Airport\+::read\+File (\begin{DoxyParamCaption}\item[{ifstream \&}]{f }\end{DoxyParamCaption})}
+
+Reads the information about the nearest transports from the AIRPORT.\+txt file and saves the information in a \mbox{\hyperlink{class_b_s_t}{BST}} 
+\begin{DoxyParams}{Parameters}
+{\em f} & (file with the information) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_airport_a0837fd9e7cd67ba70bc7d033a87d71cd}\label{class_airport_a0837fd9e7cd67ba70bc7d033a87d71cd}} 
+\index{Airport@{Airport}!removeTransport@{removeTransport}}
+\index{removeTransport@{removeTransport}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{removeTransport()}{removeTransport()}}
+{\footnotesize\ttfamily void Airport\+::remove\+Transport (\begin{DoxyParamCaption}\item[{string}]{typ,  }\item[{unsigned int}]{dis }\end{DoxyParamCaption})}
+
+Remove the transport with the characteristics given from the \mbox{\hyperlink{class_b_s_t}{BST}} 
+\begin{DoxyParams}{Parameters}
+{\em typ} & (type of transport) \\
+\hline
+{\em dis} & (distance between the transport and the airport) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_airport_a577388516150c12706a1fb9dd95976ba}\label{class_airport_a577388516150c12706a1fb9dd95976ba}} 
+\index{Airport@{Airport}!showTransports@{showTransports}}
+\index{showTransports@{showTransports}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{showTransports()}{showTransports()}}
+{\footnotesize\ttfamily void Airport\+::show\+Transports (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Shows the closest transports to the airport and the distance (in Km) they are from the airport 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Tests/Airport.\+h\item 
+Tests/Airport.\+cpp\end{DoxyCompactItemize}

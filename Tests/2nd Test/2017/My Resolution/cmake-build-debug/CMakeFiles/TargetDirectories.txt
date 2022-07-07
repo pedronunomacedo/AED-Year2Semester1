@@ -1,0 +1,3 @@
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/2nd Test/2017/My Resolution/cmake-build-debug/CMakeFiles/My_Resolution.dir
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/2nd Test/2017/My Resolution/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/STUDY/University/2ndYear/1stSemester/AEDA/Tests/2nd Test/2017/My Resolution/cmake-build-debug/CMakeFiles/rebuild_cache.dir
