@@ -1,0 +1,4 @@
+
+[submodule "Projects"]
+	path = Projects
+	url = git@github.com:pedronunomacedo/AED-Projects.git
